@@ -1,3 +1,3 @@
 # RacingBulls
 
-Mein WMC-Projekt des 4. Semesters. 
+Mein WMC-Projekt des 4. Semester (Schuljahr 23/24). 
