@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Formel1;
+    src: url(../font/F1-Font/Formula1-Bold.otf);
+   }
+
+body {
+    background-image: linear-gradient(to right, rgb(20, 0, 75) 45%, rgb(240, 232, 232) 90%)
+}
+
+p {
+    font-family: Formel1;
+    text-align: center;
+    color:white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Formel1;
+    color: white;
+}
+
+h2 {
+    font-family: Formel1;
+    text-align: center;
+    color:white;
+}
+
+hr {
+    border-color: rgb(20, 0, 75) 50%, rgb(240, 232, 232);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+}
+
+#grid-item1 {
+    grid-column-start: 90;
+    grid-column-end: 105;
+}
+
+#grid-item2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#vl {
+    border-left: 100px solid rgb(255, 0, 0);
+    height: auto;
+  }
